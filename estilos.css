@@ -1,0 +1,96 @@
+h1 {
+	font-size: 30px;
+	font-family: Lucida Calligraphy;
+	font-weight: lighter;
+   }
+
+h6 {
+	font: bold 14px Lucida Calligraphy
+   }
+
+p {
+	font-family: Ink Free;
+  }
+
+header,section,footer,aside,nav,article{
+	display: block
+	}
+
+body {
+	text-align: center;
+}
+
+.agrupar {
+	width: 960px;
+	border: 5px solid white;
+	margin: 15px auto;
+}
+
+.header { 
+	 border: 1px solid #999999;
+	 padding: 5px;
+	}
+
+.header h1{ 
+	 text-align: left;
+	}
+
+.menu{
+	background: white;
+	padding: 5px 15px;
+	text-align: left;
+     }
+
+.menu li {
+	list-style: none;
+	padding: 5px;
+	border: 1px solid black;
+	font: bold 14px;
+	display: inline-block;
+	color: black;
+      }
+
+section{
+	margin: 20px;
+	width: 500px;
+	float: left;
+	}
+
+article {
+	background: black;
+	border: 3px solid white;
+	padding: 30px;
+	margin-bottom: 15px;
+	}
+
+time {
+	color: grey;
+      }
+
+article footer {
+		text-align: right;
+		}
+
+.columna {
+	margin: 5px 0;
+	width: 400px;
+	float: left;
+	 }
+
+.columna blockquote {
+	background: black;
+	border: 2px solid white;
+	padding: 30px;
+	margin-bottom: 15px;
+	 }
+
+
+.pie {
+	clear: both;
+     }
+
+.link {
+	border: 1px solid white;
+	background: white;
+	margin-bottom: 3px;
+     }
